@@ -20,3 +20,19 @@ A deep learning-based computer vision project to detect whether a person is wear
 
 ## 📁 Project Structure
 
+## 🛠️ How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/racheal1993/mask_detection_project.git
+   cd mask_detection_project
+## create a virtual environment
+ python -m venv venv
+venv\Scripts\activate      # On Windows
+## install dependencies
+  pip install -r requirements.txt
+
+## train the model
+  python train_mask_detector.py
+## to run the app 
+  python run app.py
